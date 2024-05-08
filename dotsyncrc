@@ -16,10 +16,8 @@ DOTFILES=.dotfiles
 # dstfile will be '.$srcfile' by default (with path removed)
 #
 [files]
-# Uncomment examples below
-dotsyncrc
 tmux/tmux.conf
-nvim
+nvim:.config/nvim
 [endfiles]
 
 # Hosts to sync
