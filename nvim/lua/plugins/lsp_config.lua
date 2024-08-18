@@ -63,6 +63,7 @@ return {
 			vim.keymap.set("n", "<leader>e", function()
 				vim.diagnostic.open_float(0, { scope = "line" })
 			end, {})
+      vim.api.nvim_set_keymap('n', '<leader>rn', '<cmd>lua vim.lsp.buf.rename()<CR>', {})
 			vim.keymap.set({ "n", "v" }, "<leader>ca", function()
 				-- Request code actions for whole line
 				local start_pos = vim.api.nvim_win_get_cursor(0)
