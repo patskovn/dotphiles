@@ -1,7 +1,8 @@
 return {
-  "f-person/auto-dark-mode.nvim",
+  "patskovn/auto-dark-mode.nvim",
   config = {
     update_interval = 3000,
+    server_port = 12142,
     set_dark_mode = function()
       local catpuccin = require("catppuccin")
       catpuccin.setup({
