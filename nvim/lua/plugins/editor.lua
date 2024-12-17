@@ -26,18 +26,4 @@ return {
       vim.g.signify_sign_change_delete = ""
     end,
   },
-
-  {
-    "nvim-telescope/telescope.nvim",
-    opts = {
-      defaults = {
-        mappings = {
-          i = {
-            -- I don't like having to tap <Esc> twice to exit Telescope.
-            ["<esc>"] = require("telescope.actions").close,
-          },
-        },
-      },
-    },
-  },
 }

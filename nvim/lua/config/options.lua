@@ -13,7 +13,7 @@ vim.cmd([[
   augroup END
 ]])
 
-opt.hidden = true -- allow background buffers
+opt.hidden = true      -- allow background buffers
 opt.joinspaces = false -- join lines without two spaces
 
 -- Disable LazyVim's default clipboard.
