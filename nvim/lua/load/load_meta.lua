@@ -22,9 +22,10 @@ else
   local null_ls = require("null-ls")
   local servers = { "buck2@meta", "rust-analyzer@meta", "pyls@meta", "pyre@meta", "thriftlsp@meta", "cppls@meta" }
   for _, lsp in ipairs(servers) do
-    require("lspconfig")[lsp].setup {
+    vim.lsp.config(lsp, {
       on_attach = on_attach,
-    }
+    })
+    vim.lsp.enable({lsp})
   end
 
   null_ls.setup({
