@@ -11,6 +11,7 @@ ghostty:.config/ghostty
 [hosts]
 patskovn 
 nikitasmacbookpro2.https://vpn.patskovn.com
+patskovn-mbp
 #host1.example.com               git=ANY                        files=custom/dotfile    #git repo, pull from anywhere and link a custom dotfile
 #host4.example.com               git=host5.example.com                                  #git repo, pull from host5
 #host5.example.com               git=NONE                                               #git repo, local only
