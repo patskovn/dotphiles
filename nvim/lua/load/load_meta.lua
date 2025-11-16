@@ -52,7 +52,7 @@ else
   require("telescope").load_extension("fzf")
 
   vim.keymap.set("n", "<leader>ff", "<cmd>Telescope myles<cr>", {})
-  vim.keymap.set("n", "<leader>fg", "<cmd>Telescope biggrep<cr>", {})
+  vim.keymap.set("n", "<leader>fg", "<cmd>Telescope biggrep s<cr>", {})
 
   require("meta.hg").setup {
     line_blame = {
