@@ -1,0 +1,12 @@
+auto-update-channel = tip
+
+font-family = "JetBrains Mono"
+font-feature = -calt
+font-feature = -dlig
+font-feature = -liga
+
+theme = dark:catppuccin-frappe,light:catppuccin-latte
+
+custom-shader = /Users/patskovn/.config/ghostty/shaders/cursor_animation.glsl
+
+

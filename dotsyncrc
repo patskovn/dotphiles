@@ -1,0 +1,19 @@
+
+# Location of your dotfiles in $HOME
+DOTFILES=.dotfiles
+
+[files]
+tmux/tmux.conf
+nvim:.config/nvim
+ghostty:.config/ghostty
+[endfiles]
+
+[hosts]
+patskovn 
+nikitasmacbookpro2.https://vpn.patskovn.com
+#host1.example.com               git=ANY                        files=custom/dotfile    #git repo, pull from anywhere and link a custom dotfile
+#host4.example.com               git=host5.example.com                                  #git repo, pull from host5
+#host5.example.com               git=NONE                                               #git repo, local only
+#host6.example.net               rsync=host1.example.com                                #rsync mirror, push from host1
+[endhosts]
+
