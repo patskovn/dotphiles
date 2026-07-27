@@ -9,8 +9,10 @@ end
 
 return {
 	"dmtrKovalenko/fff.nvim",
-	build = "cargo build --release",
   enabled = not directory_exists("/usr/share/fb-editor-support/"),
+	build = function()
+		require("fff.download").download_or_build_binary()
+	end,
 	opts = {
 		debug = {
 			enabled = true,
