@@ -6,6 +6,7 @@ DOTFILES=.dotfiles
 tmux/tmux.conf
 nvim:.config/nvim
 ghostty:.config/ghostty
+rex/init.lua:.config/rex/init.lua
 [endfiles]
 
 [hosts]
