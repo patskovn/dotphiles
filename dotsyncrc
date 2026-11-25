@@ -7,6 +7,8 @@ tmux/tmux.conf
 nvim:.config/nvim
 ghostty:.config/ghostty
 rex/init.lua:.config/rex/init.lua
+fish/config.fish:.config/fish/config.fish
+fish/fish_plugins:.config/fish/fish_plugins
 [endfiles]
 
 [hosts]
